@@ -311,18 +311,26 @@ footer .social-links {
 
        /*TODO: FALTA CSS*/
 
+
+
        ul.menu li a:hover{
         color:red;
         }
 
        .social-links a i.fab.fa-twitter{
-        font-size: 30px;
+        font-size: 100px;
         margin: 1rem;
         margin-bottom: 3rem;
         }
 
+        .social-links a i.fab.fa-github{
+            font-size: 100px;
+            margin: 1rem;
+            margin-bottom: 3rem;
+            }
+
         .container a i.fas.fa-arrow-circle-down{
-            font-size: 30px;
+            font-size: 50px;
             color:#0AC693;
             margin-bottom: 3rem;
         }
@@ -337,8 +345,51 @@ footer .social-links {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin: auto;
+            margin: 5rem 5rem 5rem 5rem;
         }
+
+        .about{
+            display: flex;
+            justify-content: center;
+        }
+
+        section.about div.container{
+            display: grid;
+            grid-auto-flow: dense;
+            margin: 0rem;
+            margin-right: 0px;
+        }
+
+        div.container h2{
+            grid-area: span 1 / span 3;
+            margin: 0rem;
+        }
+        
+        .bio-info {
+            grid-area: span 2/ span 2;
+            margin: 50px;
+            width: 500px;
+        }
+
+        .contactar{
+            width: 50px;
+            height: 50px;
+        }
+
+        .post ul li{
+            margin: 50px;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 0px 1em;
+            width: 500px;
+        }
+
+        
+        
 
 @media only screen and (min-width: 1440px) {
 
@@ -348,4 +399,6 @@ footer .social-links {
         margin: 0 auto;
         max-width: 1440px;
     }
+}
+
 }
