@@ -309,12 +309,36 @@ footer .social-links {
 
 @media only screen and (min-width: 1024px) {
 
-       /*TODO: FALTA CSS */
-       
+       /*TODO: FALTA CSS*/
 
+       ul.menu li a:hover{
+        color:red;
+        }
 
+       .social-links a i.fab.fa-twitter{
+        font-size: 30px;
+        margin: 1rem;
+        margin-bottom: 3rem;
+        }
 
-}
+        .container a i.fas.fa-arrow-circle-down{
+            font-size: 30px;
+            color:#0AC693;
+            margin-bottom: 3rem;
+        }
+
+        .big-hero{
+            display: flex;
+            justify-content: center;
+        }
+
+        big-hero.container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
 
 @media only screen and (min-width: 1440px) {
 
